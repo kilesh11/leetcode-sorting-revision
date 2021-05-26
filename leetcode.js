@@ -275,3 +275,14 @@
 
 // const product = cartesian(['a', 'b', 'c', 'd'], [1], ['x', 'y', 'z']);
 // console.log('kyle_debug ~ file: leetcode.js ~ line 278 ~ product', product);
+// function solution(A, B) {
+//     const arr = (A * B).toString(2).split('');
+//     let count = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] === '1') {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(solution(3, 7));
